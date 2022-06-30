@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Navbar from "./Navbar.js";
+import NavbarComp from "./NavbarComp.js";
 import './styles/style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <div>
-        <Navbar />
+        <NavbarComp />
         <div className="text-3xl">Welcome to my-webpack-react-starter</div>
 
     </div>
