@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import NavbarComp from "./NavbarComp.js";
-import './styles/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {

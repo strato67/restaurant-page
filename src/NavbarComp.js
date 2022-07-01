@@ -1,27 +1,27 @@
 import React, {Component} from "react";
-import { Navbar,Nav, Container, NavDropdown} from "react-bootstrap";
+import { Navbar,Nav, Container} from "react-bootstrap";
+import './styles/navbar.css';
+import Icon from './imgs/icon.png';
 
 const NavbarComp = ()=>{
     return(
-<Navbar bg="light" expand="lg">
-  <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+      <Navbar bg="dark" expand="lg" variant="dark" className="py-4 navbar">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img src={Icon} className='icon' height={48}/>
+            Pizza Place
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto" defaultActiveKey='#home'>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Menu</Nav.Link>
+              <Nav.Link href="#contact">Contact Us</Nav.Link>
+
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     );
 
 };
