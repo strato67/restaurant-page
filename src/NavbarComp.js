@@ -15,7 +15,7 @@ const NavbarComp = ()=>{
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" defaultActiveKey='#home'>
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Menu</Nav.Link>
+              <Nav.Link href="#menu">Menu</Nav.Link>
               <Nav.Link href="#contact">Contact Us</Nav.Link>
 
             </Nav>

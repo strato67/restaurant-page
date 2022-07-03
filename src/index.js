@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import NavbarComp from "./NavbarComp.js";
 import Home from "./Home.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/index.css';
 
 const App = () => {
   return (

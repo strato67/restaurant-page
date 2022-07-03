@@ -1,27 +1,29 @@
 import React from "react";
-import { Carousel, Container} from "react-bootstrap";
+import { Carousel, Button} from "react-bootstrap";
 import DisplayImg from './imgs/pizzaplace.png';
 import './styles/homeStyle.css';
 
 const CarouselDisplay = ()=>{
 
     return(
-        <Container>
-                    <Carousel indicators='false'>
+
+        <Carousel indicators='false'>
             <Carousel.Item>
-                <img
-                className="d-block w-100 mainImg"
-                src={DisplayImg}
-                alt="First slide"
-                />
+                <div className="shade">
+                <img className="d-block w-100 mainImg" src={DisplayImg} alt="First slide"/>
+                </div>
+                
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3 className="homeTitle"><i>Mediocre pizza, questionable service, all the compromises.</i></h3>
+                <a href="https://www.roblox.com/games/192800/Youre-Fired-Work-at-a-Pizza-Place" target="_blank">
+                <Button variant="dark" size="lg" className="visitBtn">Visit Us</Button>
+                </a>
+                
                 </Carousel.Caption>
             </Carousel.Item>
 
         </Carousel>
-        </Container>
+
 
     );
 
