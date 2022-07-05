@@ -10,7 +10,7 @@ const CarouselDisplay = ()=>{
         <Carousel indicators='false'>
             <Carousel.Item>
                 <div className="shade">
-                <img className="d-block w-100 mainImg" src={DisplayImg} alt="First slide"/>
+                <img className="d-block w-100 mainImg" src={DisplayImg} alt="Restaurant Image"/>
                 </div>
                 
                 <Carousel.Caption>
