@@ -2400,16 +2400,20 @@ __webpack_require__.r(__webpack_exports__);
 
 var Footer = function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: "gitcontainer"
+    className: "my-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "gitIcon"
+    className: "justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/strato67",
-    target: "_blank"
+    target: "_blank",
+    className: "iconContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _imgs_git_png__WEBPACK_IMPORTED_MODULE_1__,
-    alt: "Github"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, "Made by strato67"));
+    alt: "Github",
+    className: "gitIcon"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: "justify-content-center gitlabel mt-2"
+  }, "Made by strato67"));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
@@ -2667,7 +2671,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\r\n.gitcontainer{\r\n    color: white;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":";AACA;IACI,YAAY;AAChB","sourcesContent":["\r\n.gitcontainer{\r\n    color: white;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".iconContainer{\r\n    max-width: 96px !important;\r\n    max-height: 96px !important;\r\n}\r\n.gitlabel{\r\n    color: white;\r\n}\r\n.gitIcon{\r\n    height: 100%;\r\n    width: 100%;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA;IACI,0BAA0B;IAC1B,2BAA2B;AAC/B;AACA;IACI,YAAY;AAChB;AACA;IACI,YAAY;IACZ,WAAW;AACf","sourcesContent":[".iconContainer{\r\n    max-width: 96px !important;\r\n    max-height: 96px !important;\r\n}\r\n.gitlabel{\r\n    color: white;\r\n}\r\n.gitIcon{\r\n    height: 100%;\r\n    width: 100%;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

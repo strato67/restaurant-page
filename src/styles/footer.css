@@ -1,4 +1,11 @@
-
-.gitcontainer{
+.iconContainer{
+    max-width: 96px !important;
+    max-height: 96px !important;
+}
+.gitlabel{
     color: white;
+}
+.gitIcon{
+    height: 100%;
+    width: 100%;
 }

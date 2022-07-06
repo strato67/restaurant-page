@@ -5,7 +5,7 @@ import Icon from './imgs/icon.png';
 
 const NavbarComp = ()=>{
     return(
-      <Navbar bg="dark" expand="lg" variant="dark" className="py-4 navbar">
+      <Navbar bg="dark" expand="lg" variant="dark" className="py-4 navbar fixed-top">
         <Container>
           <Navbar.Brand href="#home">
             <img src={Icon} className='icon' height={48}/>

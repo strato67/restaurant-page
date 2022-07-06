@@ -6,14 +6,14 @@ import './styles/footer.css';
 const Footer = ()=>{
 
     return(
-    <Container className="gitcontainer">
-        <Row className="gitIcon">
-            <a href="https://github.com/strato67" target="_blank">
-                <img src={GitIcon} alt="Github"/>
+    <Container className="my-3">
+        <Row className="justify-content-center">
+            <a href="https://github.com/strato67" target="_blank" className="iconContainer">
+                <img src={GitIcon} alt="Github" className="gitIcon"/>
             </a>
                     
         </Row>
-        <Row>Made by strato67</Row>
+        <Row className="justify-content-center gitlabel mt-2">Made by strato67</Row>
 
 
 
