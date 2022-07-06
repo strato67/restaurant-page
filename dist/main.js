@@ -2495,7 +2495,7 @@ var NavbarComp = function NavbarComp() {
     bg: "dark",
     expand: "lg",
     variant: "dark",
-    className: "py-4 navbar"
+    className: "py-4 navbar fixed-top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"].Brand, {
     href: "#home"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
