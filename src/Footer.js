@@ -1,5 +1,5 @@
 import React from "react";
-import {Container ,Row, Col} from "react-bootstrap";
+import {Container ,Row} from "react-bootstrap";
 import GitIcon from './imgs/git.png';
 import './styles/footer.css';
 
@@ -14,8 +14,6 @@ const Footer = ()=>{
                     
         </Row>
         <Row className="justify-content-center gitlabel mt-2">Made by strato67</Row>
-
-
 
     </Container>
     );
