@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Card} from "react-bootstrap";
+import { Container,Card, ListGroup, Row, Col} from "react-bootstrap";
 import InteriorIMG from "./imgs/interior.jpg"
 import './styles/contact.css';
 const ContactDisplay = () =>{
@@ -8,13 +8,24 @@ const ContactDisplay = () =>{
     <Container className="cardMain">
         <Card className="bg-dark text-white">
         <Card.Img src={InteriorIMG} alt="Card image" className="backgroundimg" />
-        <Card.ImgOverlay>
-            <Card.Title>Card title</Card.Title>
+        <Card.ImgOverlay className="p-5">
+            <Card.Title className="pb-3"><h1>Contact Us</h1></Card.Title>
             <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in to
-            additional content. This content is a little bit longer.
+                <Container fluid>
+                    <Row>
+                        <Col>(666)-666-6666</Col>
+                        <Col>pizzaplace@pizza.com</Col>
+                        <Col>Sunday to Saturday from 12am - 12pm</Col>
+                    </Row>
+                    <Row>
+                        <Col>Instagram</Col>
+                        <Col>Facebook</Col>
+                        <Col>Twitter</Col>
+                    </Row>
+                </Container>
+
             </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
+            
         </Card.ImgOverlay>
         </Card>
 

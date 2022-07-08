@@ -5,3 +5,8 @@
 .cardMain{
     padding-top: 8rem !important;
 }
+.cInfo{
+    color: white !important;
+    background-color: transparent !important;
+    font-size: 1.2rem;
+}
