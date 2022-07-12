@@ -2389,36 +2389,98 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Card.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Card.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
 /* harmony import */ var _imgs_interior_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/interior.jpg */ "./src/imgs/interior.jpg");
-/* harmony import */ var _styles_contact_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/contact.css */ "./src/styles/contact.css");
+/* harmony import */ var _ContactImages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContactImages */ "./src/ContactImages.js");
+/* harmony import */ var _styles_contact_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/contact.css */ "./src/styles/contact.css");
+
 
 
 
 
 
 var ContactDisplay = function ContactDisplay() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  var socialArr = [];
+
+  for (var key in _ContactImages__WEBPACK_IMPORTED_MODULE_2__["default"]) {
+    var obj = _ContactImages__WEBPACK_IMPORTED_MODULE_2__["default"][key];
+    socialArr.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      xs: true,
+      lg: "2"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      className: "cInfo text-white"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      className: "imgContainer"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Img, {
+      src: obj.path,
+      alt: "Card image"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Text, null, obj.description))));
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: "cardMain"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "bg-dark text-white"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Img, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Img, {
     src: _imgs_interior_jpg__WEBPACK_IMPORTED_MODULE_1__,
     alt: "Card image",
     className: "backgroundimg"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].ImgOverlay, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].ImgOverlay, {
     className: "p-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Title, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Title, {
     className: "pb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Contact Us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Contact Us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
     fluid: true
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "(666)-666-6666"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "pizzaplace@pizza.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "Sunday to Saturday from 12am - 12pm")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], null, "Twitter")))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: "justify-content-md-center"
+  }, socialArr)))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactDisplay);
+
+/***/ }),
+
+/***/ "./src/ContactImages.js":
+/*!******************************!*\
+  !*** ./src/ContactImages.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var Images = {
+  phone: {
+    path: __webpack_require__(/*! ./imgs/phone.png */ "./src/imgs/phone.png"),
+    description: '(666)-666-6666'
+  },
+  email: {
+    path: __webpack_require__(/*! ./imgs/email.png */ "./src/imgs/email.png"),
+    description: 'pizzaplace@pizza.com'
+  },
+  hours: {
+    path: __webpack_require__(/*! ./imgs/hours.png */ "./src/imgs/hours.png"),
+    description: 'Sunday to Saturday from 12am - 12pm'
+  },
+  instagram: {
+    path: __webpack_require__(/*! ./imgs/insta.png */ "./src/imgs/insta.png"),
+    description: 'Instagram'
+  },
+  facebook: {
+    path: __webpack_require__(/*! ./imgs/facebook.png */ "./src/imgs/facebook.png"),
+    description: 'Facebook'
+  },
+  twitter: {
+    path: __webpack_require__(/*! ./imgs/tweet.png */ "./src/imgs/tweet.png"),
+    description: 'Twitter'
+  }
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Images);
 
 /***/ }),
 
@@ -2717,7 +2779,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".backgroundimg{\r\n    opacity: 0.3;\r\n    \r\n}\r\n.cardMain{\r\n    padding-top: 8rem !important;\r\n}\r\n.cInfo{\r\n    color: white !important;\r\n    background-color: transparent !important;\r\n    font-size: 1.2rem;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/contact.css"],"names":[],"mappings":"AAAA;IACI,YAAY;;AAEhB;AACA;IACI,4BAA4B;AAChC;AACA;IACI,uBAAuB;IACvB,wCAAwC;IACxC,iBAAiB;AACrB","sourcesContent":[".backgroundimg{\r\n    opacity: 0.3;\r\n    \r\n}\r\n.cardMain{\r\n    padding-top: 8rem !important;\r\n}\r\n.cInfo{\r\n    color: white !important;\r\n    background-color: transparent !important;\r\n    font-size: 1.2rem;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".backgroundimg{\r\n    opacity: 0.3;\r\n    \r\n}\r\n.cardMain{\r\n    padding-top: 8rem !important;\r\n}\r\n.cInfo{\r\n    color: white !important;\r\n    background-color: transparent !important;\r\n    font-size: 1.2rem;\r\n    border: none !important;\r\n    text-align: center;\r\n}\r\n.imgContainer{\r\n    max-width: 128px !important;\r\n    max-height: 128px !important;\r\n}\r\n.imgContainer>img{\r\n    width: 64px;\r\n    height: 64px;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/contact.css"],"names":[],"mappings":"AAAA;IACI,YAAY;;AAEhB;AACA;IACI,4BAA4B;AAChC;AACA;IACI,uBAAuB;IACvB,wCAAwC;IACxC,iBAAiB;IACjB,uBAAuB;IACvB,kBAAkB;AACtB;AACA;IACI,2BAA2B;IAC3B,4BAA4B;AAChC;AACA;IACI,WAAW;IACX,YAAY;AAChB","sourcesContent":[".backgroundimg{\r\n    opacity: 0.3;\r\n    \r\n}\r\n.cardMain{\r\n    padding-top: 8rem !important;\r\n}\r\n.cInfo{\r\n    color: white !important;\r\n    background-color: transparent !important;\r\n    font-size: 1.2rem;\r\n    border: none !important;\r\n    text-align: center;\r\n}\r\n.imgContainer{\r\n    max-width: 128px !important;\r\n    max-height: 128px !important;\r\n}\r\n.imgContainer>img{\r\n    width: 64px;\r\n    height: 64px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -44261,6 +44323,28 @@ module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%
 
 /***/ }),
 
+/***/ "./src/imgs/email.png":
+/*!****************************!*\
+  !*** ./src/imgs/email.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "0df8e2a325c52369c0e5.png";
+
+/***/ }),
+
+/***/ "./src/imgs/facebook.png":
+/*!*******************************!*\
+  !*** ./src/imgs/facebook.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "2e758231e03ed8832ae2.png";
+
+/***/ }),
+
 /***/ "./src/imgs/git.png":
 /*!**************************!*\
   !*** ./src/imgs/git.png ***!
@@ -44269,6 +44353,17 @@ module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%
 
 "use strict";
 module.exports = __webpack_require__.p + "7615be16eed41f806def.png";
+
+/***/ }),
+
+/***/ "./src/imgs/hours.png":
+/*!****************************!*\
+  !*** ./src/imgs/hours.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "e89f221628f510b0f86b.png";
 
 /***/ }),
 
@@ -44283,6 +44378,17 @@ module.exports = __webpack_require__.p + "e13aa40a9b0828c535d1.png";
 
 /***/ }),
 
+/***/ "./src/imgs/insta.png":
+/*!****************************!*\
+  !*** ./src/imgs/insta.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "f81d03d1605b1957d467.png";
+
+/***/ }),
+
 /***/ "./src/imgs/interior.jpg":
 /*!*******************************!*\
   !*** ./src/imgs/interior.jpg ***!
@@ -44294,6 +44400,17 @@ module.exports = __webpack_require__.p + "5a02b6c852865b0a2a59.jpg";
 
 /***/ }),
 
+/***/ "./src/imgs/phone.png":
+/*!****************************!*\
+  !*** ./src/imgs/phone.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "f7d91233ac5e634f3a08.png";
+
+/***/ }),
+
 /***/ "./src/imgs/pizzaplace.png":
 /*!*********************************!*\
   !*** ./src/imgs/pizzaplace.png ***!
@@ -44302,6 +44419,17 @@ module.exports = __webpack_require__.p + "5a02b6c852865b0a2a59.jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "6e2ef41c46981715e289.png";
+
+/***/ }),
+
+/***/ "./src/imgs/tweet.png":
+/*!****************************!*\
+  !*** ./src/imgs/tweet.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "fd101e942464bee913c4.png";
 
 /***/ }),
 
