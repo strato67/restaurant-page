@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Card, ListGroup, Row, Col} from "react-bootstrap";
+import { Container,Card, Image, Row, Col} from "react-bootstrap";
 import InteriorIMG from "./imgs/interior.jpg"
 import SocialIcons from './ContactImages'
 import './styles/contact.css';
@@ -9,13 +9,13 @@ const ContactDisplay = () =>{
     for(const key in SocialIcons){
         let obj = SocialIcons[key];
         socialArr.push(
-            <Col xs lg="2">
-                <Card className="cInfo text-white">
+            <Col xs={12} md={4}>
+                <Container className="cInfo text-white">
                     <Container className="imgContainer">
-                    <Card.Img src={obj.path} alt="Card image"/>
+                    <Image src={obj.path} alt={obj.description} fluid/>
                     </Container>
-                    <Card.Text>{obj.description}</Card.Text>
-                </Card>
+                    <p>{obj.description}</p>
+                </Container>
             </Col>
 
         );
@@ -26,7 +26,7 @@ const ContactDisplay = () =>{
         
         <Card className="bg-dark text-white">
         <Card.Img src={InteriorIMG} alt="Card image" className="backgroundimg" />
-        <Card.ImgOverlay className="p-5">
+        <Card.ImgOverlay className="p-5 cardContainer">
             <Card.Title className="pb-3"><h1>Contact Us</h1></Card.Title>
            
                 <Container fluid>

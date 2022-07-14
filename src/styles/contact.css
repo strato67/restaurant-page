@@ -4,6 +4,8 @@
 }
 .cardMain{
     padding-top: 8rem !important;
+
+    
 }
 .cInfo{
     color: white !important;
@@ -11,12 +13,13 @@
     font-size: 1.2rem;
     border: none !important;
     text-align: center;
+
 }
 .imgContainer{
-    max-width: 128px !important;
-    max-height: 128px !important;
+    max-width: 10rem !important;
 }
-.imgContainer>img{
-    width: 64px;
-    height: 64px;
+@media only screen and (max-width: 992px){
+    .cardContainer{
+        position:static !important;
+    }
 }
