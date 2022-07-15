@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel, Button} from "react-bootstrap";
-import DisplayImg from './imgs/pizzaplace.png';
-import './styles/homeStyle.css';
+import DisplayImg from '../imgs/pizzaplace.png';
+import '../styles/homeStyle.css';
 
 const CarouselDisplay = ()=>{
 

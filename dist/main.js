@@ -2376,10 +2376,10 @@ function useWindow() {
 
 /***/ }),
 
-/***/ "./src/Contact.js":
-/*!************************!*\
-  !*** ./src/Contact.js ***!
-  \************************/
+/***/ "./src/Contact/Contact.js":
+/*!********************************!*\
+  !*** ./src/Contact/Contact.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2394,9 +2394,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Image.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Card.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var _imgs_interior_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/interior.jpg */ "./src/imgs/interior.jpg");
-/* harmony import */ var _ContactImages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContactImages */ "./src/ContactImages.js");
-/* harmony import */ var _styles_contact_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/contact.css */ "./src/styles/contact.css");
+/* harmony import */ var _imgs_interior_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../imgs/interior.jpg */ "./src/imgs/interior.jpg");
+/* harmony import */ var _ContactImages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContactImages */ "./src/Contact/ContactImages.js");
+/* harmony import */ var _styles_contact_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/contact.css */ "./src/styles/contact.css");
 
 
 
@@ -2445,10 +2445,10 @@ var ContactDisplay = function ContactDisplay() {
 
 /***/ }),
 
-/***/ "./src/ContactImages.js":
-/*!******************************!*\
-  !*** ./src/ContactImages.js ***!
-  \******************************/
+/***/ "./src/Contact/ContactImages.js":
+/*!**************************************!*\
+  !*** ./src/Contact/ContactImages.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2458,27 +2458,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 var Images = {
   phone: {
-    path: __webpack_require__(/*! ./imgs/phone.png */ "./src/imgs/phone.png"),
+    path: __webpack_require__(/*! ../imgs/phone.png */ "./src/imgs/phone.png"),
     description: '(666)-666-6666'
   },
   email: {
-    path: __webpack_require__(/*! ./imgs/email.png */ "./src/imgs/email.png"),
+    path: __webpack_require__(/*! ../imgs/email.png */ "./src/imgs/email.png"),
     description: 'pizzaplace@pizza.com'
   },
   hours: {
-    path: __webpack_require__(/*! ./imgs/hours.png */ "./src/imgs/hours.png"),
+    path: __webpack_require__(/*! ../imgs/hours.png */ "./src/imgs/hours.png"),
     description: 'Sunday to Saturday from 12am - 12pm'
   },
   instagram: {
-    path: __webpack_require__(/*! ./imgs/insta.png */ "./src/imgs/insta.png"),
+    path: __webpack_require__(/*! ../imgs/insta.png */ "./src/imgs/insta.png"),
     description: 'Instagram'
   },
   facebook: {
-    path: __webpack_require__(/*! ./imgs/facebook.png */ "./src/imgs/facebook.png"),
+    path: __webpack_require__(/*! ../imgs/facebook.png */ "./src/imgs/facebook.png"),
     description: 'Facebook'
   },
   twitter: {
-    path: __webpack_require__(/*! ./imgs/tweet.png */ "./src/imgs/tweet.png"),
+    path: __webpack_require__(/*! ../imgs/tweet.png */ "./src/imgs/tweet.png"),
     description: 'Twitter'
   }
 };
@@ -2486,10 +2486,10 @@ var Images = {
 
 /***/ }),
 
-/***/ "./src/Footer.js":
-/*!***********************!*\
-  !*** ./src/Footer.js ***!
-  \***********************/
+/***/ "./src/Home/Footer.js":
+/*!****************************!*\
+  !*** ./src/Home/Footer.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2501,8 +2501,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var _imgs_git_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/git.png */ "./src/imgs/git.png");
-/* harmony import */ var _styles_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/footer.css */ "./src/styles/footer.css");
+/* harmony import */ var _imgs_git_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../imgs/git.png */ "./src/imgs/git.png");
+/* harmony import */ var _styles_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/footer.css */ "./src/styles/footer.css");
 
 
 
@@ -2530,10 +2530,10 @@ var Footer = function Footer() {
 
 /***/ }),
 
-/***/ "./src/Home.js":
-/*!*********************!*\
-  !*** ./src/Home.js ***!
-  \*********************/
+/***/ "./src/Home/Home.js":
+/*!**************************!*\
+  !*** ./src/Home/Home.js ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2545,8 +2545,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Carousel.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Button.js");
-/* harmony import */ var _imgs_pizzaplace_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/pizzaplace.png */ "./src/imgs/pizzaplace.png");
-/* harmony import */ var _styles_homeStyle_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/homeStyle.css */ "./src/styles/homeStyle.css");
+/* harmony import */ var _imgs_pizzaplace_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../imgs/pizzaplace.png */ "./src/imgs/pizzaplace.png");
+/* harmony import */ var _styles_homeStyle_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/homeStyle.css */ "./src/styles/homeStyle.css");
 
 
 
@@ -2577,10 +2577,10 @@ var CarouselDisplay = function CarouselDisplay() {
 
 /***/ }),
 
-/***/ "./src/NavbarComp.js":
-/*!***************************!*\
-  !*** ./src/NavbarComp.js ***!
-  \***************************/
+/***/ "./src/Home/NavbarComp.js":
+/*!********************************!*\
+  !*** ./src/Home/NavbarComp.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2593,8 +2593,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Navbar.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Nav.js");
-/* harmony import */ var _styles_navbar_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/navbar.css */ "./src/styles/navbar.css");
-/* harmony import */ var _imgs_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/icon.png */ "./src/imgs/icon.png");
+/* harmony import */ var _styles_navbar_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/navbar.css */ "./src/styles/navbar.css");
+/* harmony import */ var _imgs_icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../imgs/icon.png */ "./src/imgs/icon.png");
 
 
 
@@ -2629,6 +2629,28 @@ var NavbarComp = function NavbarComp() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavbarComp);
+
+/***/ }),
+
+/***/ "./src/Menu/Menu.js":
+/*!**************************!*\
+  !*** ./src/Menu/Menu.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+
+var MenuDisplay = function MenuDisplay() {};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MenuDisplay);
 
 /***/ }),
 
@@ -44772,12 +44794,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _NavbarComp_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarComp.js */ "./src/NavbarComp.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./src/Footer.js");
-/* harmony import */ var _Home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Home.js */ "./src/Home.js");
-/* harmony import */ var _Contact_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Contact.js */ "./src/Contact.js");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/index.css */ "./src/styles/index.css");
+/* harmony import */ var _Home_NavbarComp_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home/NavbarComp.js */ "./src/Home/NavbarComp.js");
+/* harmony import */ var _Home_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home/Footer */ "./src/Home/Footer.js");
+/* harmony import */ var _Home_Home_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Home/Home.js */ "./src/Home/Home.js");
+/* harmony import */ var _Contact_Contact_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Contact/Contact.js */ "./src/Contact/Contact.js");
+/* harmony import */ var _Menu_Menu_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Menu/Menu.js */ "./src/Menu/Menu.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./styles/index.css */ "./src/styles/index.css");
+
 
 
 
@@ -44788,7 +44812,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var App = function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_NavbarComp_js__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Contact_js__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Home_NavbarComp_js__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Home_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 };
 
 react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, null), document.querySelector(".root"));

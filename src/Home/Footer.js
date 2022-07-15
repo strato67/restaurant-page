@@ -1,7 +1,7 @@
 import React from "react";
 import {Container ,Row} from "react-bootstrap";
-import GitIcon from './imgs/git.png';
-import './styles/footer.css';
+import GitIcon from '../imgs/git.png';
+import '../styles/footer.css';
 
 const Footer = ()=>{
 

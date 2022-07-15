@@ -1,8 +1,8 @@
 import React from "react";
 import { Container,Card, Image, Row, Col} from "react-bootstrap";
-import InteriorIMG from "./imgs/interior.jpg"
+import InteriorIMG from "../imgs/interior.jpg"
 import SocialIcons from './ContactImages'
-import './styles/contact.css';
+import '../styles/contact.css';
 
 const ContactDisplay = () =>{
     let socialArr = [];

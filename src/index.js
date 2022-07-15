@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import NavbarComp from "./NavbarComp.js";
-import Footer from "./Footer"
-import Home from "./Home.js";
-import Contact from "./Contact.js";
+import NavbarComp from "./Home/NavbarComp.js";
+import Footer from "./Home/Footer"
+import Home from "./Home/Home.js";
+import Contact from "./Contact/Contact.js";
+import Menu from "./Menu/Menu.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
@@ -14,8 +15,9 @@ const App = () => {
     <div>
         <NavbarComp />
         {/*<Home />*/}
+        <Menu />
+        {/*<Contact />*/}
         
-        <Contact />
         <Footer />
 
     </div>

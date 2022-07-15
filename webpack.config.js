@@ -23,7 +23,14 @@ module.exports = {
             test: /\.(png|svg|jpg|jpeg|gif)$/i,
             type: 'asset/resource',
           },
-      ]
+          {
+            test: /\.json$/,
+            use: ['json-loader'],
+            type: 'javascript/auto'
+          },
+      ],
+
+      
   },
     output: {
       filename: 'main.js',
@@ -33,3 +40,4 @@ module.exports = {
       extensions: ['.js', '.jsx', '.css']
   },
   };
+  
