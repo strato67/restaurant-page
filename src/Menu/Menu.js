@@ -1,37 +1,31 @@
 import React from "react";
-import { Container,Card, Image, Row, Col, Button} from "react-bootstrap";
+import { Container, Row, Button,ButtonGroup} from "react-bootstrap";
 import myData from './menuItems.js';
+import CardGenerate from "./cardGenerate.js";
 import '../styles/menu.css'
 
 const MenuDisplay = () =>{
-    const CardGenerate = ()=>{
-        let cardArr = [];
-        myData.forEach(element => {
-            cardArr.push(
-                <Card style={{ width: '18rem',height: '30rem' }} key={element._id} className="bg-dark text-white">
-                <Card.Img variant="top" src={`${element.imgSource}`} />
-                <Card.Body>
-                  <Card.Title>{element.name}</Card.Title>
-                  <Card.Text>
-                    {element.description}
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            )
-
-
-        });
-        return cardArr;
-    }   
     
     return(
-        <Container fluid className="menuContainer">
-            <Row className="justify-content-md-center">
-                {CardGenerate()}
-            </Row>
+        <Container>
+            <Container className="btnContainer">
+                <ButtonGroup aria-label="Menu Items" size="lg">
+                    <Button variant="dark" >All</Button>
+                    <Button variant="dark">Pizza</Button>
+                    <Button variant="dark">Beverages</Button>
+                    <Button variant="dark">Other</Button>
+                </ButtonGroup>
+            </Container>
 
+            <Container className="menuContainer">
+            
+                <Row className="justify-content-left">
+                    {CardGenerate(myData)}
+                </Row>
+
+            </Container>
         </Container>
+        
     );
 }
 

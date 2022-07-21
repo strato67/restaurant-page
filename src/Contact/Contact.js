@@ -30,7 +30,7 @@ const ContactDisplay = () =>{
             <Card.Title className="pb-3"><h1>Contact Us</h1></Card.Title>
            
                 <Container fluid>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-center">
                         {socialArr}
                     </Row>
                 </Container>
