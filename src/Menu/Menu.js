@@ -1,23 +1,24 @@
 import React,{ useState } from "react";
-import { Container, Row, Button,ButtonGroup} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import myData from './menuItems.js';
 import CardGenerate from "./cardGenerate.js";
+import FilterButtons from "./FilterButtons.js";
 import '../styles/menu.css'
 
 const MenuDisplay = () =>{
     const [item, setItem] = useState(myData);
-    const menuItems = [...new Set(myData.map((Val) => Val.category))];
+    const menuItems = [...new Set(myData.map((Val) => Val.productType))];
+    
+    const filterItem = (category) =>{
+        const newItem = myData.filter((newVal)=> newVal.productType === category);
+        setItem(newItem);
+    };
+    
     return(
         <Container>
-            <Container className="btnContainer">
-                <ButtonGroup aria-label="Menu Items" size="lg" >
-                    <Button variant="dark" value={'all'}>All</Button>
-                    <Button variant="dark" value={'pizza'}>Pizza</Button>
-                    <Button variant="dark" value={'beverages'}>Beverages</Button>
-                    <Button variant="dark">Other</Button>
-                </ButtonGroup>
+            <Container>
+                <FilterButtons filterItem={filterItem} setItems={setItem} menuItems={menuItems}/>
             </Container>
-
             <Container className="menuContainer">
             
                 <Row className="justify-content-left">
