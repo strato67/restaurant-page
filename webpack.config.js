@@ -4,7 +4,8 @@ module.exports = {
     entry: './src/index.js',
     devtool: 'source-map',
     devServer:{
-      static: './dist',     
+      static: './dist',
+      historyApiFallback: true,     
     },
     mode:'development',
     module: {
