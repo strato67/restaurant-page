@@ -13,7 +13,7 @@ const NavbarComp = ()=>{
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" defaultActiveKey='#home'>
+            <Nav className="me-auto" defaultActiveKey='/'>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="menu">Menu</Nav.Link>
               <Nav.Link href="contact">Contact Us</Nav.Link>
