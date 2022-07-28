@@ -2607,7 +2607,7 @@ var NavbarComp = function NavbarComp() {
     variant: "dark",
     className: "py-4 navbar fixed-top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"].Brand, {
-    href: "/"
+    href: "#/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _imgs_icon_png__WEBPACK_IMPORTED_MODULE_2__,
     className: "icon",
@@ -2618,13 +2618,13 @@ var NavbarComp = function NavbarComp() {
     id: "basic-navbar-nav"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: "me-auto",
-    defaultActiveKey: "/"
+    defaultActiveKey: "#/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Link, {
-    href: "/"
+    href: "#/"
   }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Link, {
-    href: "menu"
+    href: "#/menu"
   }, "Menu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"].Link, {
-    href: "contact"
+    href: "#/contact"
   }, "Contact Us")))));
 };
 
